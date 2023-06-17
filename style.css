@@ -1,0 +1,228 @@
+body{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    height:100vh;
+  }
+  #face{
+  background-color:#e7b68c;
+    height:150px;
+    width:130px;
+    border-bottom-left-radius:50%;
+    border-bottom-right-radius:50%;
+    display:flex;
+    position:absolute;
+    box-shadow:2px 2px 2px ;
+  }
+  p{
+    background-color:#5a4938;
+    height:50px;
+    width:50px;
+    margin-top:30px;
+    margin-left:10px;
+  /*   margin:7px; */
+    border-radius:50%;
+    
+  }
+  #eyebrow1::before{
+    content:"";
+    width:60px;
+    height:60px;
+    background:#e7b68c;
+    position:absolute;
+    bottom:50px;
+  
+  /*   border-radius:50%; */
+    rotate:-7deg;
+  }
+  #eyebrow2::before{
+    content:"";
+    width:60px;
+    height:60px;
+    background:#e7b68c;
+    position:absolute;
+    bottom:50px;
+    left:59px;
+  /*   border-radius:50%; */
+    rotate:7deg;
+  }
+  
+  #eye1{
+    width:15px;
+    position:absolute;
+    height:15px;
+    border-radius:50%;
+    background-color:#614a31;
+     bottom:80px;
+    left:25px;
+  }
+  #eye2{
+    width:15px;
+    position:absolute;
+    height:15px;
+    border-radius:50%;
+    background-color:#614a31;
+    bottom:80px;
+    right:25px;
+  }
+  
+    #nose{
+      width:26px;
+      height:10px;
+      position:absolute;
+      background-color: #c99c74;
+      bottom:50px;
+      left:52px;
+      border-bottom-right-radius:20px;
+      border-bottom-left-radius:20px;
+    }
+  
+  #mouth{
+    position:absolute;
+    width:30px;
+    height:15px;
+    background-color:#453a28;
+    bottom:20px;
+    left:50px;
+    border-bottom-left-radius:20px;
+    border-bottom-right-radius:20px;
+  }
+  #neck{
+    height:70px;
+    width:50px;
+    position:absolute;
+    background-color:#edb98a;
+    top:120px;
+    left:40px;
+    border-bottom-left-radius:50px;
+    border-bottom-right-radius:50px;
+    z-index:-1;
+  }
+  #hoodie{
+    position:absolute;
+    width:200px;
+    height:100px;
+    bottom:-125px;
+    left:-35px;
+    background-color:#3c4f5d;
+    z-index:-3;
+    border-top-right-radius:70px;
+    border-top-left-radius:70px;
+  }
+  #hoodie-collar{
+    position:absolute;
+    width:100px;
+    height:30px;
+    top:170px;
+    z-index:-2;
+    left:17px;
+  /*   border-radius:50px; */
+    border-bottom-left-radius:100px;
+    border-bottom-right-radius:100px;
+    border-top-right-radius:7px;
+      border-top-left-radius:7px;
+    
+      background-color:#3c4f5d;
+  /*   z-index:-2; */
+    box-shadow:2px 2px 2px white;
+  }
+  #hair1{
+    position: absolute;
+    width: 132px;
+    bottom: 54px;
+    border-bottom: 96px solid #724133;
+    /* border-top-left-radius: 50px;
+    border-top-right-radius: 50px; */
+    border-right: 38px solid transparent;
+    border-left: 38px solid transparent;
+    left: -39px;
+    z-index: -1;
+    border-top-left-radius: 100px;
+    border-top-right-radius: 100px;
+    top: -9px;
+  }
+  #hair2{
+    position: absolute;
+    width: 207px;
+    left: -39px;
+    z-index: -5;
+    bottom: -36px;
+    background-color: #724133;
+    height: 90px;
+    /* border-top: 90px solid #724133; */
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+  }
+  #bangs1{
+    width:40px;
+    height:80px;
+    border-radius:50%;
+    background:#724133;
+    position:absolute;
+  
+    rotate:50deg;
+    bottom:100px;
+    left:-3px;
+  }
+  #bangs2{
+    width:30px;
+    height:100px;
+    border-radius:50%;
+    background:#724133;
+    position:absolute;
+  
+    rotate:-70deg;
+    bottom:85px;
+    right:20px;
+  }
+  #bangs3{
+    width:30px;
+    height:100px;
+    border-radius:50%;
+    background:#724133;
+    position:absolute;
+  
+    rotate:-70deg;
+    bottom:85px;
+    right:29px;
+  }
+  #bangs4{
+    width:40px;
+    height:20px;
+    background:#724133;
+    position:absolute;
+    left:90px;
+    z-index:10;
+  }
+  
+  #cover3{
+   position: absolute;
+
+  width: 164px;
+  height: 100px;
+  background: #724133;
+  top: -30px;
+  left: -17px;
+    z-index:-1;
+    border-top-right-radius: 74px;
+border-top-left-radius: 74px;
+  }
+
+  #hoodie-thread{
+    position:absolute;
+    width:5px;
+   left:35px;
+      top: 198px;
+    height:100px;
+    background:white;
+  }
+  
+  #hoodie-thread2{
+    position:absolute;
+    width:5px;
+   left:90px;
+      top: 199px;
+    height:100px;
+    background:white;
+  }
+  
